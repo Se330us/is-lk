@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.ico">
   <title>
     Личный кабинет :: Интерсети
   </title>
@@ -20,9 +20,6 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <!-- CSS Files -->
   <link id="pagestyle" href="../assets/css/material-dashboard.css?v=3.1.0" rel="stylesheet" />
-  <!-- Nepcha Analytics (nepcha.com) -->
-  <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
-  <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
 </head>
 
 <body class="g-sidenav-show  bg-gray-200">
@@ -38,7 +35,7 @@
     <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link text-white active bg-gradient-primary" href="../pages/dashboard.html">
+          <a class="nav-link text-white active bg-gradient-primary" href="../pages/billing.html">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">dashboard</i>
             </div>
@@ -46,11 +43,11 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="../pages/billing.html">
+          <a class="nav-link text-white " href="../pages/dashboard.html">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">receipt_long</i>
             </div>
-            <span class="nav-link-text ms-1">Платежи</span>
+            <span class="nav-link-text ms-1">В разработке...</span>
           </a>
         </li>
         <li class="nav-item">
@@ -177,8 +174,10 @@
                   <div class="card-body card-abon position-relative z-index-1 p-3">
                     <i class="material-icons text-white">home</i>
                     <h6 class="text-white">Ваш лицевой счет:</h6>
-                    <h3 class="text-white mt-2 mb-4 pb-2">0123456789</h3>
-                    <h4 class="text-white mt-2 mb-4 pb-2">Пантелеев Пантелей Пантелеевич</h3>
+                    <h3 class="text-white mt-2 mb-2 pb-2">0123456789</h3>
+                    <h6 class="text-white">Баланс:</h6>
+                    <h6 class="text-white">₽455.00</h6>
+                    <h4 class="text-white mt-2">Пантелеев Пантелей Пантелеевич</h3>
                   </div>
                 </div>
               </div>
@@ -224,7 +223,7 @@
                 <div class="card-header pb-0 p-3">
                   <div class="row">
                     <div class="col-6 d-flex align-items-center">
-                      <h6 class="mb-0">Метод оплаты</h6>
+                      <h6 class="mb-0">Выберите метод оплаты</h6>
                     </div>
                   </div>
                 </div>
@@ -253,7 +252,7 @@
             <div class="card-header pb-0 px-3">
               <div class="row">
                 <div class="col-md-6">
-                  <h6 class="mb-0">Ваши транзакции</h6>
+                  <h6 class="mb-0">Последние транзакции</h6>
                 </div>
                 <div class="col-md-6 d-flex justify-content-start justify-content-md-end align-items-center">
                   <i class="material-icons me-2 text-lg">date_range</i>
@@ -262,7 +261,6 @@
               </div>
             </div>
             <div class="card-body card-transactions pt-4 p-3">
-              <h6 class="text-uppercase text-body text-xs font-weight-bolder mb-3">Последние</h6>
               <ul class="list-group">
                 <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                   <div class="d-flex align-items-center">
@@ -289,7 +287,6 @@
                   </div>
                 </li>
               </ul>
-              <h6 class="text-uppercase text-body text-xs font-weight-bolder my-3">Вчера</h6>
               <ul class="list-group">
                 <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                   <div class="d-flex align-items-center">
@@ -301,6 +298,18 @@
                   </div>
                   <div class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold">
                     + ₽50
+                  </div>
+                </li>
+                <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
+                  <div class="d-flex align-items-center">
+                    <button class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 p-3 btn-sm d-flex align-items-center justify-content-center"><i class="material-icons text-lg">expand_more</i></button>
+                    <div class="d-flex flex-column">
+                      <h6 class="mb-1 text-dark text-sm">Списание по приколу</h6>
+                      <span class="text-xs">26 марта 2024, в 13:43.</span>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold">
+                    - ₽50
                   </div>
                 </li>
                 <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
