@@ -5282,6 +5282,10 @@ fieldset:disabled .btn {
   height: 277px;
 }
 
+.card-transactions {
+  height: 279px;
+}
+
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
 }
