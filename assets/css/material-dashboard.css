@@ -5271,6 +5271,17 @@ fieldset:disabled .btn {
   color: var(--bs-card-color);
 }
 
+.card-billing {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+  height: 180px;
+}
+
+.card-abon {
+  height: 277px;
+}
+
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
 }
